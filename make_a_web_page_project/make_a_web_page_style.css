@@ -1,0 +1,24 @@
+.country_brief {
+  display:flex;
+}
+
+.page_title {
+  color:red;
+  font-size:3em
+}
+
+p.italic {
+  font-style: italic;
+}
+
+.introduction {
+  font-family: "Times New Roman"
+}
+
+.hero_bio {
+  background-color:black;
+  color:white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 5px auto;
+}

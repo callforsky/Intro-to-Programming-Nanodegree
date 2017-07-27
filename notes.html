@@ -1,43 +1,47 @@
 <!DOCTYPE hmtl>
 <html>
-  <head>
-    <title> Chuan's Note on HTML Basics </title>
-  </head>
-  <body>
-    <h1> HTML BASICS </h1>
-      <h2> Formatting </h2>
-        <p>
-          Similar to Markdown, HTML uses tags to change the format of text.
-          Multiple  spaces are recognized as exactly one space, and a simple Return
-          will not start a new line. There are a couple of ways to start a new line in HTML.
-          The first way is to add &lt br &gt at the end of the line. The second
-          way is to wrap the paragraph with &lt p &gt and &lt /p &gt. The thrid
-          way is to wrap the block of texts with &lt div &gt and &lt /div &gt.
-          There is a big difference between &lt div &gt and &lt p &gt. Simply said,
-           the former is a block tag, while the latter a inline tag. For now,
-           we should not worry too much about their difference, as we should learn it
-           later in the course. Below are the formatting tags we have covered so far in
-           this course:
-        </p>
-        <b> (1) Bold </b>
-        <p> To make text <b> bold </b> in HTML, wrap the text with &lt b &gt and &lt /b &gt tags </p>
-        <b> (2) Italics </b>
-        <p> To make text <em> italic </em>, wrap the text with &lt em &gt and &lt /em &gt tags </p>
-      <h2> Functioning </h2>
-        <p>
-          HTML tags can also do some functional jobs other than formatting texts.
-          You can insert a link, image, or whatever media, into a
-          HTML document through tags. Below are the functional tags that have been covered in
-          this course so far:
-        </p>
-        <b> (1) Insert a link </b>
-        <p> To make a text hyperlink, like this link to <a href="https//www.udacity.com">Udacity</a>, wrap the text with &lta href="url"&gt and &lt/a&gt, where <em>url</em> is the http address like www.google.com. </p>
-        <b> (2) Insert an image </b>
-        <p> To insert an image, simply insert &ltimg src="url"&gt tags.
-          It is recommend to add some error handling attributes in case of failing to load the image from the source.
-          To do so, add alt attributes to the image tag: &ltimg src="url" alt="text"&gt, where
-          <em>text</em> is the text that you want to display in place of the image if the image
-          does not show up as expected.
-        </p>
-  </body>
+  <div>
+    <head>
+      <title> Chuan's Note on HTML Basics </title>
+    </head>
+  </div>
+  <div>
+    <body>
+      <h1> HTML BASICS </h1>
+        <h2> Formatting </h2>
+          <p>
+            Similar to Markdown, HTML uses tags to change the format of text.
+            Multiple  spaces are recognized as exactly one space, and a simple Return
+            will not start a new line. There are a couple of ways to start a new line in HTML.
+            The first way is to add &lt br &gt at the end of the line. The second
+            way is to wrap the paragraph with &lt p &gt and &lt /p &gt. The thrid
+            way is to wrap the block of texts with &lt div &gt and &lt /div &gt.
+            There is a big difference between &lt div &gt and &lt p &gt. Simply said,
+             the former is a block tag, while the latter a inline tag. For now,
+             we should not worry too much about their difference, as we should learn it
+             later in the course. Below are the formatting tags we have covered so far in
+             this course:
+          </p>
+          <b> (1) Bold </b>
+          <p> To make text <b> bold </b> in HTML, wrap the text with &lt b &gt and &lt /b &gt tags </p>
+          <b> (2) Italics </b>
+          <p> To make text <em> italic </em>, wrap the text with &lt em &gt and &lt /em &gt tags </p>
+        <h2> Functioning </h2>
+          <p>
+            HTML tags can also do some functional jobs other than formatting texts.
+            You can insert a link, image, or whatever media, into a
+            HTML document through tags. Below are the functional tags that have been covered in
+            this course so far:
+          </p>
+          <b> (1) Insert a link </b>
+          <p> To make a text hyperlink, like this link to <a href="https//www.udacity.com">Udacity</a>, wrap the text with &lta href="url"&gt and &lt/a&gt, where <em>url</em> is the http address like www.google.com. </p>
+          <b> (2) Insert an image </b>
+          <p> To insert an image, simply insert &ltimg src="url"&gt tags.
+            It is recommend to add some error handling attributes in case of failing to load the image from the source.
+            To do so, add alt attributes to the image tag: &ltimg src="url" alt="text"&gt, where
+            <em>text</em> is the text that you want to display in place of the image if the image
+            does not show up as expected.
+          </p>
+    </body>
+  </div>
 </html>

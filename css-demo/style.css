@@ -1,0 +1,15 @@
+/* This is a CSS comment.*/
+.description {
+  color:red;
+  font-size: 3em
+}
+
+p.italic {
+  color:blue;
+  font-style: italic;
+}
+
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/
